@@ -1,14 +1,32 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "author": "Raven",
+  "description": "This is a description",
+  "keywords": [
+    "a string",
+    "in double qoutes",
+    "for seo"
+  ],
+  "license": "MIT",
+  "version": "1.2.0",
+  "dependencies": {
+    "express": "^4.14.0",
+    "packageName": "version",
+    "@freecodecamp/example": "1.1.0",
+    "package": "major.minor.patch",
+    "newPackage": "1 add changes that wont work with earlier versions.2 add new features.13 are bug fixes",
+    "tilde": "~1.2.0 automatic update to patches",
+    "caret": "^1.2.0 automatic update to minor and patches"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
 }
